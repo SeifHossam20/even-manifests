@@ -28,7 +28,7 @@ git clone https://github.com/SeifHossam20/even-manifests.git -b lineage-19.1 .re
 repo sync --force-sync --no-tags --no-clone-bundle -c
 ```
 
-- Finally, build as you like. For example, for a recovery-installable package for gtaxlwifi:
+- Finally, build as you like. For example, for a recovery-installable package for RMX3195:
 ```
 . build/envsetup.sh
 lunch lineage_even-userdebug
