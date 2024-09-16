@@ -13,4 +13,8 @@
     <!-- Vendor IMS -->
     <project name="eun0115/vendor_oplus_even-ims" path="vendor/oplus/even-ims" remote="github" revision="twelve-rmui2" />
 
+    <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-20" />
+
+    <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-20" />
+    
 </manifest>
