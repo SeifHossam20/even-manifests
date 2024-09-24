@@ -11,10 +11,10 @@
     <project name="eun0115/vendor_realme_even" path="vendor/realme/even" remote="github" revision="twelve-oss" />
   
     <!-- Vendor IMS -->
-    <project name="eun0115/vendor_oplus_even-ims" path="vendor/oplus/even-ims" remote="github" revision="twelve-rmui2" />
+    <project name="SeifHossam20/android_vendor_realme_even-ims" path="vendor/realme/even-ims" remote="github" revision="thirteen-rmui2" />
 
     <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-20" />
 
-    <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-20" />
+    <project name="HyperTeam/android_packages_apps_RealmeParts" path="packages/apps/RealmeParts" remote="github" revision="lineage-20" />
     
 </manifest>
