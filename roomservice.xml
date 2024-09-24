@@ -14,6 +14,8 @@
     <project name="SeifHossam20/android_vendor_realme_even-ims" path="vendor/realme/even-ims" remote="github" revision="thirteen-rmui2" />
 
     <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-20" />
+    
+    <project name="LineageOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="lineage-20" />
 
     <project name="HyperTeam/android_packages_apps_RealmeParts" path="packages/apps/RealmeParts" remote="github" revision="lineage-20" />
 
