@@ -19,6 +19,4 @@
 
     <project name="HyperTeam/android_packages_apps_RealmeParts" path="packages/apps/RealmeParts" remote="github" revision="lineage-20" />
 
-    <project name="techyminati/android_packages_apps_RealmeDirac" path="packages/apps/RealmeDirac" remote="github" revision="lineage-20" />
-    
 </manifest>
