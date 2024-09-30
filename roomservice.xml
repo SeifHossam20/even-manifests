@@ -2,7 +2,7 @@
 <manifest>
 
     <!-- Kernel repository -->
-    <project name="Badmaneers/kernel_realme_mt6768" path="kernel/realme/mt6768" remote="github" revision="master" recurse-modules="true" />
+    <project recurse-submodules name="Badmaneers/kernel_realme_mt6768" path="kernel/realme/mt6768" remote="github" revision="master" />
     
     <!-- Device tree -->
     <project name="Badmaneers/device_realme_even" path="device/realme/even" remote="github" revision="thirteen-oss" />
