@@ -1,18 +1,18 @@
 #!/bin/bash
 
 # Clone Kernel
-git clone --recurse-submodules https://github.com/Badmaneers/kernel_realme_mt6768.git kernel/realme/mt6768
+rm -rf kernel/realme/mt6768 && git clone --recurse-submodules https://github.com/Badmaneers/kernel_realme_mt6768.git kernel/realme/mt6768
 # Clone Vendor
-git clone https://github.com/eun0115/vendor_realme_even.git -b twelve-prebuilt vendor/realme/even
+rm -rf vendor/realme/even && git clone https://github.com/eun0115/vendor_realme_even.git -b twelve-prebuilt vendor/realme/even
 # Clone Device Tree
-git clone https://github.com/Badmaneers/device_realme_even.git -b thirteen-oss device/realme/even
+rm -rf device/realme/even && git clone https://github.com/Badmaneers/device_realme_even.git -b thirteen-oss device/realme/even
 # Clone Vendor-Ims
-git clone https://github.com/https://github.com/SeifHossam20/android_vendor_realme_even-ims.git -b thirteen-rmui2 vendor/realme/even-ims
+rm -rf vendor/realme/even-ims && git clone https://github.com/https://github.com/SeifHossam20/android_vendor_realme_even-ims.git -b thirteen-rmui2 vendor/realme/even-ims
 # Clone Lineage Tree
-git clone https://github.com/LineageOS/android_hardware_mediatek.git -b lineage-20 hardware/mediatek
+rm -rf hardware/mediatek && git clone https://github.com/LineageOS/android_hardware_mediatek.git -b lineage-20 hardware/mediatek
 # Clone Lineage sepolicy
-git clone https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr.git -b lineage-20 device/mediatek/sepolicy_vndr
+rm -rf device/mediatek/sepolicy_vndr git clone https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr.git -b lineage-20 device/mediatek/sepolicy_vndr
 # Clone Realme-Dirac
-git clone https://github.com/HyperTeam/android_packages_apps_RealmeParts.git -b lineage-20 packages/apps/RealmeParts
+rm -rf packages/apps/RealmeParts && git clone https://github.com/HyperTeam/android_packages_apps_RealmeParts.git -b lineage-20 packages/apps/RealmeParts
 # Clone Realme-Parts
-git clone https://github.com/techyminati/android_packages_apps_RealmeDirac -b lineage-20 packages/apps/RealmeDirac
+rm -rf packages/apps/RealmeDirac && git clone https://github.com/techyminati/android_packages_apps_RealmeDirac -b lineage-20 packages/apps/RealmeDirac
