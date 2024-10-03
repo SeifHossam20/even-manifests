@@ -2,10 +2,10 @@
 <manifest>
 
     <!-- Kernel repository -->
-    <project recurse-submodules="true" name="Badmaneers/kernel_realme_mt6768" path="kernel/realme/mt6768" remote="github" revision="master" />
+    <project name="Badmaneers/kernel_realme_mt6768" path="kernel/realme/mt6768" remote="github" revision="master" recurse-submodules="true" />
     
     <!-- Device tree -->
-    <project name="SeifHossam20/device_realme_even" path="device/realme/even" remote="github" revision="13.0" />
+    <project name="SeifHossam20/device_realme_even" path="device/realme/even" remote="github" revision="13" />
   
     <!-- Vendor tree -->
     <project name="eun0115/vendor_realme_even" path="vendor/realme/even" remote="github" revision="twelve-oss" />
