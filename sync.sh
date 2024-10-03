@@ -5,7 +5,7 @@ git clone --recurse-submodules https://github.com/Badmaneers/kernel_realme_mt676
 # Clone Vendor
 git clone https://github.com/eun0115/vendor_realme_even.git -b twelve-prebuilt vendor/realme/even
 # Clone Device Tree
-git clone https://github.com/Badmaneers/device_realme_even.git -b thirteen-oss device/realme/even
+git clone https://github.com/SeifHossam20/device_realme_even.git -b 13.0 device/realme/even
 # Clone Vendor-Ims
 git clone https://github.com/https://github.com/SeifHossam20/android_vendor_realme_even-ims.git -b thirteen-rmui2 vendor/realme/even-ims
 # Clone Lineage Tree
