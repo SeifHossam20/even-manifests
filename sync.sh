@@ -10,8 +10,8 @@ git clone https://github.com/eun0115/vendor_realme_even.git -b twelve-prebuilt v
 rm -rf device/realme/even
 git clone https://github.com/Badmaneers/device_realme_even.git -b thirteen-oss device/realme/even
 # Clone Vendor-Ims
-#rm -rf vendor/realme/even-ims
-#git clone https://github.com/SeifHossam20/android_vendor_realme_even-ims.git -b thirteen-rmui2 vendor/realme/even-ims
+rm -rf vendor/realme/even-ims
+git clone https://github.com/SeifHossam20/android_vendor_realme_even-ims.git -b thirteen-rmui2 vendor/realme/even-ims
 # Clone Lineage Tree
 rm -rf hardware/mediatek
 git clone https://github.com/LineageOS/android_hardware_mediatek.git -b lineage-20 hardware/mediatek
