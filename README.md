@@ -13,14 +13,14 @@ mkdir lineage-20
 cd lineage-20
 ```
 
-- Initialize repo in this directory with the LineageOS 19.1 android repository:
+- Initialize repo in this directory with the LineageOS 20 android repository:
 ```
 repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
 ```
 
 - Clone this repository to .repo/local_manifests for roomservice.xml containing the repositories needed to build for these devices:
 ```
-git clone https://github.com/SeifHossam20/even-manifests.git -b lineage-20 .repo/local_manifests
+git clone https://github.com/Badmaneers/even-manifests.git -b lineage-20 .repo/local_manifests
 ```
 
 - Sync all of the repositories in manifests (including LineageOS manifests):
@@ -28,7 +28,7 @@ git clone https://github.com/SeifHossam20/even-manifests.git -b lineage-20 .repo
 repo sync --force-sync --no-tags --no-clone-bundle -c
 ```
 
-- Finally, build as you like. For example, for a recovery-installable package for RMX3195:
+- Finally, build as you like. For example, for a recovery-installable package:
 ```
 . build/envsetup.sh
 lunch lineage_even-userdebug
