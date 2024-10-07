@@ -2,16 +2,16 @@
 <manifest>
 
     <!-- Kernel repository -->
-    <project recurse-submodules="true" name="Badmaneers/kernel_realme_mt6768" path="kernel/realme/mt6768" remote="github" revision="master" />
+    <project recurse-submodules="true" name="eun0115/kernel_realme_mt6768" path="kernel/realme/mt6768" remote="github" revision="master" />
     
     <!-- Device tree -->
-    <project name="SeifHossam20/device_realme_even" path="device/realme/even" remote="github" revision="13" />
+    <project name="eun0115/device_realme_even" path="device/realme/even" remote="github" revision="twelve-prebuilt" />
   
     <!-- Vendor tree -->
-    <project name="eun0115/vendor_realme_even" path="vendor/realme/even" remote="github" revision="twelve-oss" />
+    <project name="eun0115/vendor_realme_even" path="vendor/realme/even" remote="github" revision="twelve-prebuilt" />
   
     <!-- Vendor IMS -->
-    <project name="SeifHossam20/android_vendor_realme_even-ims" path="vendor/realme/even-ims" remote="github" revision="thirteen-rmui2" />
+    <project name="SeifHossam20/android_vendor_realme_even-ims" path="vendor/realme/even-ims" remote="github" revision="twelve-rmui2" />
 
     <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-20" />
     
