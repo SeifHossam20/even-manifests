@@ -5,10 +5,10 @@ rm -rf kernel/realme/mt6768
 git clone --recurse-submodules https://github.com/Badmaneers/kernel_realme_mt6768.git kernel/realme/mt6768
 # Clone Vendor
 rm -rf vendor/realme/even
-git clone https://github.com/Badmaneers/android_vendor_realme_even.git -b twelve-oss vendor/realme/even
+git clone https://github.com/Badmaneers/android_vendor_realme_even.git -b twelve-prebuilt vendor/realme/even
 # Clone Device Tree
 rm -rf device/realme/even
-git clone https://github.com/Badmaneers/device_realme_even.git -b thirteen-oss device/realme/even
+git clone https://github.com/Badmaneers/device_realme_even.git -b thirteen device/realme/even
 # Clone Vendor-Ims
 rm -rf vendor/realme/even-ims
 git clone https://github.com/SeifHossam20/android_vendor_realme_even-ims.git -b thirteen-rmui2 vendor/realme/even-ims
