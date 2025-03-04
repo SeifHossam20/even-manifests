@@ -2,7 +2,7 @@
 
 # Clone Device Tree
 rm -rf device/realme/even ; \
-git clone  https://github.com/Badmaneers/device_realme_even_rui4.git device/realme/even ; \
+git clone  https://github.com/Badmaneers/device_realme_even-rui4.git device/realme/even ; \
 # Clone Vendor
 rm -rf vendor/realme/even ; \
 git clone   --depth=1 https://github.com/Badmaneers/vendor_realme_even_rui4.git vendor/realme/even ; \
