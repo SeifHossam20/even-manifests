@@ -2,18 +2,31 @@
 <manifest>
 
     <!-- Device tree -->
-    <project name="Badmaneers/device_realme_even-rui4" path="device/realme/even" remote="github" revision="main" />
+    <project name="Badmaneers/device_realme_even_rui4" path="device/realme/even" remote="github" revision="main" />
 
-    <!-- Kernel tree 
-    <project name="Badmaneers/kernel_even_4.19" path="kernel/realme/even" remote="github" revision="main" /> -->
-  
-    <!-- Vendor tree -->
-    <project name="Badmaneers/vendor_realme_even_rui4" path="vendor/realme/even" remote="github" revision="main" />
-  
-    <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-21" />
+    <!-- Kernel tree -->
+    <project name="Badmaneers/kernel_even_4.19" path="kernel/realme/even" remote="github" revision="main" />
+
+    <!--Vendor -->
+    <project path="vendor/realme/even" name="cumaRull/vendor_realme_RMX3191" remote="gh" revision="lineage-20.0" />
     
-    <project name="LineageOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="lineage-21" />
+    <!-- vendor ims -->
+    <project path="vendor/realme/even-ims" name="cumaRull/vendor_realme_RMX3191-ims" remote="gh" revision="thirteen" />
 
-    <project name="HyperTeam/android_packages_apps_RealmeParts" path="packages/apps/RealmeParts" remote="github" revision="lineage-21" />
+    <!--Oplus hw -->
+    <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="gh" revision="lineage-20" />
+    
+    <!-- Mediatek hw -->
+    <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-20" />
+
+    <!-- Mediatek sepolicy -->
+    <project name="LineageOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="lineage-20" />
+
+    <!-- Realme Parts -->
+    <project name="HyperTeam/android_packages_apps_RealmeParts" path="packages/apps/RealmeParts" remote="github" revision="lineage-20" />
+  
+    <!-- Clang -->
+    <project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang" remote="gh" revision="master" />
+    
     
 </manifest>
