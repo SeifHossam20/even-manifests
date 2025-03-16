@@ -8,7 +8,7 @@
     <project name="Badmaneers/kernel_even_4.19" path="kernel/realme/even" remote="github" revision="main" />
 
     <!--Vendor -->
-    <project path="vendor/realme/even" name="cumaRull/vendor_realme_RMX3191" remote="gh" revision="lineage-20.0" />
+    <project path="vendor/realme/even" name="Badmaneers/vendor_realme_even_rui4" remote="gh" revision="lineage-20.0" />
     
     <!-- vendor ims -->
     <project path="vendor/realme/even-ims" name="cumaRull/vendor_realme_RMX3191-ims" remote="gh" revision="thirteen" />
