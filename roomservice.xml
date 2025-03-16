@@ -24,9 +24,6 @@
 
     <!-- Realme Parts -->
     <project name="HyperTeam/android_packages_apps_RealmeParts" path="packages/apps/RealmeParts" remote="github" revision="lineage-20" />
-  
-    <!-- Clang -->
-    <project path="prebuilts/clang/host/linux-x86/proton-clang" name="kdrag0n/proton-clang" remote="gh" revision="master" />
     
     
 </manifest>
