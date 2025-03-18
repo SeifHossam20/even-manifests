@@ -10,6 +10,10 @@
     <!--Vendor -->
     <project path="vendor/realme/even" name="Badmaneers/vendor_realme_even_rui4" remote="gh" revision="main" />
 
+    <!-- vendor ims -->
+
+    <project path="vendor/realme/even-ims" name="Badmaneers/vendor_realme_even-ims" remote="gh" revision="thirteen" />
+
     <!--Oplus hw -->
     <project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="gh" revision="lineage-20" />
     
