@@ -10,7 +10,7 @@
     <!--Vendor -->
     <project path="vendor/realme/even" name="Badmaneers/vendor_realme_even_rui4" remote="gh" revision="main" />
 
-    <!-- vendor ims -->
+    <!-- vendor ims 
 
     <project path="vendor/realme/even-ims" name="Badmaneers/vendor_realme_even-ims" remote="gh" revision="thirteen" />
 
