@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote name="github"
+            fetch="https://github.com/" />
+
+    <remote name="gh"
+            fetch="https://github.com/" />
 
     <!-- Device tree -->
     <project name="Badmaneers/device_realme_even_rui4" path="device/realme/even" remote="github" revision="main" />
@@ -11,7 +15,6 @@
     <project path="vendor/realme/even" name="Badmaneers/vendor_realme_even_rui4" remote="gh" revision="main" />
 
     <!-- vendor ims 
-
     <project path="vendor/realme/even-ims" name="Badmaneers/vendor_realme_even-ims" remote="gh" revision="thirteen" /> -->
 
     <!--Oplus hw -->
@@ -25,6 +28,5 @@
 
     <!-- Realme Parts -->
     <project name="HyperTeam/android_packages_apps_RealmeParts" path="packages/apps/RealmeParts" remote="github" revision="lineage-20" />
-    
-    
+
 </manifest>
